@@ -1,0 +1,224 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'raleway', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	cover: green;
+}
+
+.container {
+	height: 100vh;
+	min-width: 968px;
+	max-width: 1366px;
+}
+
+.main {
+	padding: 120px 0 0 50px;
+	position: absolute;
+}
+
+.main h1,
+.about-me h1,
+.skills h1,
+.contact h1 {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	font-size: 25px;
+	color: blue;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.skills h1 {
+	margin-top: 30px;
+}
+
+.main p {
+	font-size: 14px;
+	color: green;
+	margin-bottom: 25px; 
+}
+
+.main a {
+	color: white;
+	background-color: red;
+	padding: 4px 17px;
+	display: inline-block;
+	font-size: 12px;
+	border-radius: 50px
+}
+
+.main-animation {
+	animation: animate 2s;
+}
+
+@keyframes animate {
+	from {
+		margin-top: 400px;
+	}
+	to {
+		margin-top: 0px;
+	}
+}
+
+@-webkit-keyframes animate {
+	from {
+		margin-top: 400px;
+	}
+	to {
+		margin-top: 0px;
+	}
+}
+
+.main-body {
+	background-color: lightblue;
+}
+
+.img {
+	text-align: right;
+	margin-right: 10px;
+}
+
+hr {
+    width: 100%;
+    border-top: 3px solid #EF5614;
+    border-radius: 50%;
+}
+.about-me p,
+.pg {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	text-align: center;
+	min-width: 350px;
+	max-width: 500px;
+	color: green;
+	margin: 0 auto;
+	font-size: medium;	
+	line-height: 30px;
+}
+
+.pg {
+	margin-bottom: 30px;
+}
+
+.skills, .contact {
+	margin: 0 auto;
+}
+
+
+.contact {
+	text-align: center;
+}
+
+.skill-sets {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	padding-left: 20px;
+}
+
+.skill-sets p {
+	margin-bottom: 40px;
+}
+
+.skills-sets img {
+	padding-right: 100px;
+}
+
+.autocad h5,
+.archicad h5,
+.artlantis h5,
+.arcgis h5,
+.surfer h5 {
+	color: blue;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	min-width: 120px;
+	max-width: 200px;
+	margin-right: 10px;
+}
+	
+.autocad img,
+.archicad img,
+.artlantis img,
+.arcgis img,
+.surfer img {
+	padding-right: 25px;
+}
+
+.exp p{
+	font-size: 15px;
+	color: red;
+	margin-left: ;
+}
+
+.contact {
+	background-color: lightcyan;
+}
+
+.form {
+	width: 100%;
+}
+
+.fullname input, 
+.email input {
+	background-color:  #edf2f7;
+	height: 45px;
+	margin-bottom: 20px;
+	width: 20%;
+	border: 3px solid lightblue;
+	border-radius: 7px 7px 7px 0;
+}
+
+textarea {
+	background-color:  #edf2f7;
+	margin-bottom: 20px;
+	width: 20%;
+	border: 3px solid lightblue;
+	border-radius: 7px 7px 7px 0;
+}
+
+.fullname label,
+.email label {
+	color: red;
+	display: block;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.textarea label{
+	color: red;
+	display: block;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.submit  {
+	color: white;
+	background-color: red;
+	padding: 2px ;
+	display: inline-block;
+	font-size: 12px;
+	height: 30px; 
+	border-radius: 7px
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.number {
+	text-align: center;
+	background-color: lightblue;
+	color: purple; 
+	width: 100%;
+}
+.hr {
+	margin-bottom: 50px;
+}
+
+
